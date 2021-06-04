@@ -18,3 +18,27 @@
 <h2> <i> Процесс разработки: </i> </h2>
 Изначально каждый участник команды работает в своей ветке. После того, как программа будет написана, будет сделан PullRequest (соединение частей проекта).
 
+<h2> <i> Как использовать модуль? </i> </h2>
+
+**Скачиваем все файлы и пишем в консоли последовательно:**
+
+python setup.py build
+
+python setup.py install
+
+python
+
+**Далее, чтобы использовать модуль в коде импортируем его:**
+
+import slausolve
+
+slausolve.solve(args)
+
+<h2> <i> Пример использования модуля: </i> </h2>
+<p align="left">
+    <img src="https://github.com/Mahapeth/C-PROJECT-TERM-4/blob/main/input.png" width="1200" alt="Input an example">
+</p>
+<p align="left">
+    <img src="https://github.com/Mahapeth/C-PROJECT-TERM-4/blob/main/examples.png" width="1600" alt="Output an example">
+</p>
+
